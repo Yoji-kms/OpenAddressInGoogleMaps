@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Open Address In Google Maps</string>
+    <string name="place_name_or_coordinates">Place name or coordinates</string>
+    <string name="search">Search</string>
+</resources>

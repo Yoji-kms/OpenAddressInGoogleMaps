@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Открыть адрес в Google Maps</string>
+    <string name="place_name_or_coordinates">Название места или координаты</string>
+    <string name="search">Поиск</string>
+</resources>
