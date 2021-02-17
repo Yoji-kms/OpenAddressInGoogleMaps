@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
     private Button searchBtn;
     private EditText placeNameOrCoordinatesEdtTxt;
 
-    private View.OnClickListener searchBtnOnClickListener = v -> {
+    private final View.OnClickListener searchBtnOnClickListener = v -> {
         Intent place = new Intent(Intent.ACTION_VIEW);
         String enteredString = placeNameOrCoordinatesEdtTxt.getText().toString().trim();
         place.setData(placeNameOrCoordinatesUri(enteredString));
         startActivity(place);
     };
 
-    private TextWatcher placeNameOrCoordinatesEdtTxtWatcher = new TextWatcher() {
+    private final TextWatcher placeNameOrCoordinatesEdtTxtWatcher = new TextWatcher() {
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
         }
